@@ -5,7 +5,7 @@ var ob1 = {
     lastName: 'Pansuriya'
 }
 
-
+console.log(this);
 var f1 = function() {
     console.log("function 1");
     console.log(this);
